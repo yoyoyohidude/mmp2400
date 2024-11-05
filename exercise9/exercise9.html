@@ -10,8 +10,21 @@
           margin-left:auto;
           margin-right:auto;
       }
+
+.layout{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap:1em;
+  grid-row-gap:2em;
+}
+
       .layout img{
         width:100%;
+      }
+
+      .one, .five{
+        grid-column-start: 1;
+        grid-column-end: span 3;
       }
     </style>
   </head>
