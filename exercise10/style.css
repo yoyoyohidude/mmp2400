@@ -39,29 +39,3 @@ nav .dropdown a:hover{
 nav li:hover .dropdown{
     display: block;
 }
-
-@media(min-width:576px){
-
-    .topList{
-        display: flex;
-    }
-}
-
-nav li{
-    border:solid 1px black;
-}
-
-nav li a{
-    padding: 10px 0;
-    width: 200px;
-    text-align: center;
-}
-
-nav li{
-    position: relative;
-}
-
-.dropdown{
-    position:absolute;
-    width:100%;
-}
