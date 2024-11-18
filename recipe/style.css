@@ -1,0 +1,68 @@
+h2{
+    color:aqua
+    
+}
+
+body {
+    color: #333333; /* Dark gray for general text */
+}
+
+h1 {
+    color: #b85c5c; /* A nice red-brown for the main heading */
+}
+
+h3 {
+    color: #666666; /* Gray for subheadings */
+}
+
+ul li, ol li {
+    color: #444444; /* Slightly darker gray for ingredients and instructions */
+}
+
+body {
+    font-size: 16px; /* Base font size for body text */
+}
+
+h1 {
+    font-size: 28px; /* Large font for the main heading */
+}
+
+h3 {
+    font-size: 20px; /* Medium font for subheadings */
+}
+
+ul li, ol li {
+    font-size: 16px; /* Slightly smaller for list items */
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    font-family: Arial, sans-serif; /* Sets the body text font */
+}
+
+h1 {
+    font-family: Georgia, serif; /* Sets a different font for the main heading */
+}
+
+h3 {
+    font-family: Arial, sans-serif; /* Matches the body text */
+}
+
+h4 {
+    font-family: 'Roboto', sans-serif; /* Matches body font or choose a new one */
+    font-size: 18px;
+    color: #555;
+    margin-top: 20px;
+}
+
+.nutrition-facts {
+    font-size: 16px;
+    color: #444;
+    list-style-type: none; /* Removes default bullets */
+    padding-left: 0; /* Aligns text to the left edge */
+    line-height: 1.5;
+}
+
+.nutrition-facts li {
+    margin-bottom: 5px; /* Adds space between each fact */
+}
