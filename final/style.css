@@ -1,1 +1,69 @@
 /* Design @ CUNY Styles */
+
+#wrapper{
+    max-width:1200px;
+    padding:1em;
+}
+
+p,h1,h2,h3,h4(
+    margin-bottom: 1em;
+)
+
+h1, h2, h3, h4{
+    font-weight: bold;
+}
+
+
+.site-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu{
+    display: none;
+}
+
+.show-menu{
+    background-color: transparent;
+    border:none;
+}
+
+.search-programs{
+    min-height:8ems;
+    border:solid 1px #ccc;
+    border-radius: 10px;
+    padding: 1em;
+    margin-bottom:1em;
+}
+
+.hero-banner{
+    min-height:12em;
+    background-color: teal;
+    padding:1em;
+    margin-bottom:1em;
+}
+
+.event-item img{
+    width:100%;
+}
+
+@media (min-width:768px){
+
+    .show-menu{
+        display: none;
+    }
+    .menu{
+        display: flex;
+    }
+
+    .menu li{
+        display: inline;
+        margin-right:2em;
+    }
+    .layout{
+        display:grid;
+        grid-template-columns: 2fr 1fr;
+        grid-column-gap: 1em;
+    }
+
+}/* closing media query */
