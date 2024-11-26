@@ -48,7 +48,7 @@ h1, h2, h3, h4{
 }
 
 .programNav li{
-    background-color: aqua;
+    background-color: rgb(187, 178, 178);
     padding: 10px;
     margin-bottom: 1em;
 }
@@ -85,11 +85,33 @@ h1, h2, h3, h4{
         grid-template-columns: 2fr 1fr;
         grid-column-gap: 1em;
     }
+    /* horizonal program menu */
 
     main.home{
         display: grid;
         grid-template-columns: 2fr 1fr;
         column-gap: 1em;
+    }
+
+    .programNav ul{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .programNav ul li{
+        width: 32%;
+        position: relative;
+    }
+
+    .programNav ul li:hover{
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+
+    .programNav .dropdown{
+        display: none;
+        position: absolute;
+        width: 100%;
     }
 
     }/* closing media query */
