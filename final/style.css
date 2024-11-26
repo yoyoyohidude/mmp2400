@@ -47,7 +47,7 @@ h1, h2, h3, h4{
     width:100%;
 }
 
-@media (min-width:768px){
+@media (min-width:768px){ 
 
     .show-menu{
         display: none;
@@ -66,4 +66,10 @@ h1, h2, h3, h4{
         grid-column-gap: 1em;
     }
 
-}/* closing media query */
+    main.home{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        column-gap: 1em;
+    }
+
+    }/* closing media query */
