@@ -47,6 +47,26 @@ h1, h2, h3, h4{
     width:100%;
 }
 
+.programNav li{
+    background-color: aqua;
+    padding: 10px;
+    margin-bottom: 1em;
+}
+
+.dropdown{
+    display: none;
+}
+
+.programNav li:hover .dropdown{
+    display: block;
+}
+
+.programNav .dropdown li{
+    background-color: white;
+    margin-bottom: 0;
+    border-bottom: solid 1px #000;
+}
+
 @media (min-width:768px){ 
 
     .show-menu{
