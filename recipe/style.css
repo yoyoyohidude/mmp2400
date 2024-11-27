@@ -66,3 +66,8 @@ h4 {
 .nutrition-facts li {
     margin-bottom: 5px; /* Adds space between each fact */
 }
+
+body{
+    border: solid;
+    border-radius: 20px;
+}
