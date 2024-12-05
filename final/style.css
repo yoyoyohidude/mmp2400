@@ -120,4 +120,15 @@ h1, h2, h3, h4{
         grid-gap:20px;
     }
 
+    .programCards a{
+        text-decoration: none;
+        color:#000;
+        display: block;
+        border:solid 1px #000;
+        border-radius: 10px;
+        transition-property: box-shadow, transform;
+        transition-duration: 0.5s;
+        transition-timing-function: ease-in;
+    }
+
     }/* closing media query */
