@@ -19,7 +19,7 @@ h1, h2, h3, h4{
     justify-content: space-between;
 }
 
-.menu{
+#menu{
     display: none;
 }
 
@@ -72,11 +72,11 @@ h1, h2, h3, h4{
     .show-menu{
         display: none;
     }
-    .menu{
+    #menu{
         display: flex;
     }
 
-    .menu li{
+    #menu li{
         display: inline;
         margin-right:2em;
     }

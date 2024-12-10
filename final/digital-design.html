@@ -7,6 +7,7 @@
   <title>Design @ CUNY</title>
   <link rel="stylesheet" href="reset.css">
   <link rel="stylesheet" href="style.css">
+  <script src="showMenu.js"></script>
 </head>
 
 <body>
@@ -15,8 +16,8 @@
       <h1>Design @ CUNY</h1>
 
       <nav class="top-nav">
-        <button class="show-menu"><img src="image/menu.svg" alt="menu"></button>
-        <div class="menu">
+        <button class="show-menu"><img src="image/menu.svg" alt="menu" onclick="showMenu();"></button>
+        <div id="menu">
           <ul class="menubar">
             <li><a href="#">About CUNY</a></li>
             <li><a href="#">Financial Aid</a></li>
